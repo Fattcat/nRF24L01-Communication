@@ -11,6 +11,10 @@ Arduino nRF24L01 --> Arduino UNO
 - MOSI - D11
 - MISO - D12
 
+# Librarry Installation
+- RF24.h
+- SPI.h
+
 : Components :
  1. nRF24L01 
  - Cost : About 2 €  
