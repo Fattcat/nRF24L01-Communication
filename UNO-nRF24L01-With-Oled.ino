@@ -18,7 +18,7 @@ boolean Key_pressed = false;
 String To_Transmit = "";
 int To_Transmit_Length = 0;
 
-#define OLED_RESET 4
+#define OLED_RESET -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 char Letters[3][9] = {
@@ -39,8 +39,12 @@ void setup() {
   radio.openReadingPipe(1, 0xF0F0F0E1LL);
   radio.setPALevel(RF24_PA_HIGH);
   radio.startListening();
-
+  
+//           ZMEN 0x3C na 0x3D AK TREBA
+  
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    
+//           ZMEN 0x3C na 0x3D AK TREBA
     Serial.println(F("SSD1306 allocation failed"));
     for (;;) {}
   }
