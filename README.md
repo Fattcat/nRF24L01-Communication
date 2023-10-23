@@ -1,9 +1,9 @@
 # nRF24L01 - Communication
-nRF24L01-Communication devices with custom messages.
+nRF24L01-Communication devices with custom messages and channels.
 
 ## Please support this project by giving star this project <img src="GitHubStar.png" alt="StarLogo" width="33" height="33">
-# Connection
 
+# Connection
 Arduino nRF24L01 --> Arduino UNO
 - VCC on the nRF24L01 to 3.3V
 - GND - GND
