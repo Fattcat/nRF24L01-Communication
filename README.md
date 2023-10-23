@@ -35,7 +35,8 @@ Arduino nRF24L01 --> Arduino UNO
  5. 6x Button
    - Cost : 100pcs About 1 €
    - Link : [AliExpres Link](https://www.aliexpress.com/item/1005004001434474.html?spm=a2g0o.order_list.order_list_main.4.55ba1802EP7ABM)
-## Some Images of board
+## Some Images
+<img src="ArduinoUno-NRF24L01-Connection.jpg" alt="nRF-ConnectionWithArduinoUno" width="200" height="180">
 <img src="nRF-CommunicationScheme.jpg" alt="nRF-PCB" width="600" height="700">
 <img src="nRF-CommunicationFrontPCB.jpg" alt="nRF-PCB" width="600" height="700">
 <img src="nRF-CommunicationBack.jpg" alt="nRF-PCB" width="600" height="700">
