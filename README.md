@@ -20,7 +20,7 @@ Arduino nRF24L01 --> Arduino UNO
 : Components :
  1. nRF24L01 
  - Cost : About 2 €  
- - AliExpress Link : https://www.aliexpress.com/item/32517849393.html?spm=a2g0o.order_list.order_list_main.5.53341802zR7CBu
+ - AliExpress Link : [https://www.aliexpress.com/item/32517849393.html?spm=a2g0o.order_list.order_list_main.5.53341802zR7CBu]
 
  2. Arduino UNO
  - Cost : About 3 €
