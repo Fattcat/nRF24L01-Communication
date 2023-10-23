@@ -1,7 +1,7 @@
 # nRF24L01 - Communication
 nRF24L01-Communication devices with custom messages.
 
-## Please support this project by giving star this project <img src="GitHubStar.png" alt="StarLogo" width="30" height="30">
+## Please support this project by giving star this project <img src="GitHubStar.png" alt="StarLogo" width="33" height="33">
 # Connection
 
 Arduino nRF24L01 --> Arduino UNO
