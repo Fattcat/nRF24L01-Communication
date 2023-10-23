@@ -1,0 +1,11 @@
+Frequency of differen channels
+
+    CH --> Freq
+Kanál 0: 2,400 GHz
+Kanál 1: 2,401 GHz
+Kanál 2: 2,402 GHz
+
+... just from Channel 0 to Channel 125.
+
+Kanál 124: 2,524 GHz
+Kanál 125: 2,525 GHz
