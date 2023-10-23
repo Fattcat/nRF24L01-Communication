@@ -16,7 +16,7 @@ Arduino nRF24L01 --> Arduino UNO
 # Librarry Installation
 - RF24.h
 - SPI.h
-
+ ### Please Chose code for upload between code with Oled or using PC and Serial Monitor in Arduino IDE. 
 : Components :
  1. nRF24L01 
  - Cost : About 2 €  
