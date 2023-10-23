@@ -17,7 +17,7 @@ Arduino nRF24L01 --> Arduino UNO
 - RF24.h
 - SPI.h
  ### Please Chose code for upload between code with Oled or using PC and Serial Monitor in Arduino IDE. 
-: Components :
+# : Components :
  1. nRF24L01 
  - Cost : About 2 €  
  - Link : [AliExpress Link](https://www.aliexpress.com/item/32517849393.html?spm=a2g0o.order_list.order_list_main.5.53341802zR7CBu)
@@ -35,7 +35,7 @@ Arduino nRF24L01 --> Arduino UNO
  5. 6x Button
    - Cost : 100pcs About 1 €
    - Link : [AliExpres Link](https://www.aliexpress.com/item/1005004001434474.html?spm=a2g0o.order_list.order_list_main.4.55ba1802EP7ABM)
-## Some Images
+# Some Images
 <img src="ArduinoUno-NRF24L01-Connection.jpg" alt="nRF-ConnectionWithArduinoUno" width="600" height="333">
 <img src="nRF-CommunicationScheme.jpg" alt="nRF-PCB" width="600" height="700">
 <img src="nRF-CommunicationFrontPCB.jpg" alt="nRF-PCB" width="600" height="700">
