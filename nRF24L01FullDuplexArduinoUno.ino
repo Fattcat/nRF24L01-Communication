@@ -24,7 +24,10 @@
 #include <RF24.h>
 
 RF24 radio(9, 10); // Konfigurácia modulu nRF24L01, pripojeného k pinom 9 a 10
+
+// Obmedzenie pre ODOSLANIE NAJVIAC 32 ZNAKOV !
 char inputText[32]; // Textový buffer pre vstupný text
+// Obmedzenie pre ODOSLANIE NAJVIAC 32 ZNAKOV !
 
 void setup() {
   Serial.begin(9600); // Inicializácia sériovej komunikácie
@@ -50,7 +53,11 @@ void loop() {
   }
 
   if (radio.available()) {
+    
+    // Obmedzenie pre PRIJATIE NAJVIAC 32 ZNAKOV !
     char receivedText[32] = ""; // Textový buffer pre prijatý text
+    // Obmedzenie pre PRIJATIE NAJVIAC 32 ZNAKOV !
+    
     radio.read(receivedText, sizeof(receivedText)); // Prijme správu
     Serial.print("Prijaté: ");
     Serial.println(receivedText); // Vypíšeme prijatý text do terminálu
