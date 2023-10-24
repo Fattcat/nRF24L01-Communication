@@ -14,7 +14,7 @@ Arduino nRF24L01 --> Arduino UNO
 - MISO - D12
  
 - Default Freq -> 2476 MHz
-- Default Channel -> 24
+- Default Channel -> 76
 
 # Librarry Installation
 - RF24.h
