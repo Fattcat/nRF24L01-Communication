@@ -8,6 +8,8 @@
 #define SCREEN_HEIGHT 64 // Výška OLED displeja v pixeloch
 #define OLED_RESET -1    // Reset pin pre OLED (ak je pripojený k VCC)
 
+#define BuzzerPin 2
+
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 RF24 radio(9, 10); // Konfigurácia modulu nRF24L01, pripojeného k pinom 9 a 10
 
@@ -35,7 +37,12 @@ void loop() {
   if (radio.available()) {
     memset(receivedText, 0, sizeof(receivedText)); 
     radio.read(receivedText, sizeof(receivedText)); 
-
+    
+    tone(BuzzerPin, 100, 100);
+    tone(BuzzerPin, 1000);
+    delay(300);
+    noTone(BuzzerPin);
+    
     Serial.print("Prijaté: ");
     Serial.println(receivedText); 
 
